@@ -281,7 +281,14 @@ a.social img {
 	height: 250px;
 	
 }
+.work06,
+.work06:active {
+	background-image: url('../img/royal\ empire.png');
+	background-size: contain;
+	background-position: center;
+	height: 250px;
 
+}
 .visible-xs-block .work01, .visible-xs-block .work02 {
 	position: relative;
 	height: 200px;
@@ -397,10 +404,8 @@ h1.skills {
 	font-size: 18px;
 	color: white;
 }
-.logos {
-/*	margin-top: 60px;
-	max-width: 1024px;*/
-}
+
+
 .logo-c {
 	position:relative;
 	background-color: rgba(0,0,0,0.0001);
@@ -528,14 +533,9 @@ h1.skills {
 	white-space: initial;
 }
 
-/*xs尺寸*/
+
 @media(max-width:767px){
-	.container {
-		/*overflow-x: hidden;*/
-	}
-	/*.card {
-		margin-bottom:15px;
-	}*/
+	
 	.navbar-default {
 		background-color: #F0F1F2;
 		border-bottom: 1px solid rgba(151,151,151,0.2);
